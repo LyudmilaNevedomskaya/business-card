@@ -7,11 +7,19 @@ export default function Contact() {
 
   const mail = <FontAwesomeIcon icon={faEnvelope} />
   const linkedin = <FontAwesomeIcon icon={faLinkedin} />
-  
+
+  function emailMe() {
+    window.location.href = 'mailto:mila.webdev@gmail.com'
+  }
+
+  function linkedinVisit() {
+    window.location.href = 'https://www.linkedin.com/in/lyudmilanevedomskaya/'
+  }
   return (
     <div className="contact">
-      <button className="mail">{mail} Email</button>
-      <button className="linkedin">{linkedin} LinkedIn</button>
+      
+      <button className="mail" onClick={emailMe}>{mail} Email</button>
+      <button className="linkedin" onClick={linkedinVisit}>{linkedin} LinkedIn</button>
 
     </div>
   )
