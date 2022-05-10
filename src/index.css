@@ -7,7 +7,7 @@ body {
   background-color: #23252C;
   font-family: 'Inter', sans-serif;
 }
-h1, h3 {
+h1, h2, h3 {
   margin: 0;
 }
 .container {
@@ -67,4 +67,23 @@ h1, h3 {
   border-radius: 6px;
   border: 1px solid #5093e2;
   font-size: 14px;
+}
+
+/* ABOUT SECTION */
+.about {
+  width: 247px;
+  margin: auto;
+  margin-top: 33px;
+}
+.about h2 {
+  color: #f5f5f5;
+  font-size: 16px;
+}
+.about p {
+  color: #dcdcdc;
+  font-size: 10px;
+  line-height: 150%;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 27px;
 }
